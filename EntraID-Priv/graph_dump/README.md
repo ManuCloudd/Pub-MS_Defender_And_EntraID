@@ -44,14 +44,16 @@ chmod +x token_device.py
 
 
 sudo apt install python3-pip -y
-pip3 install msal --break-system-packages
+
 ```
 
 
 
 ### 1. Installer les dépendances :
 ```bash
-pip install msal
+pip3 install msal --break-system-packages
+
+# propre à debian...
 ```
 
 ### 2. Modifier les valeurs dans le script :
