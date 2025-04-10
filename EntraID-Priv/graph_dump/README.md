@@ -25,7 +25,7 @@ Ce guide explique comment utiliser **MSAL (Microsoft Authentication Library)** a
    - ✅ `Directory (tenant) ID`
 
 4. Ajoutez les **permissions API Microsoft Graph** suivantes :
-   - `Mail.Read`
+   - `Mail.Read`  ==> Delegated 
    - `User.Read`
    - (éventuellement `Mail.ReadWrite`, `Files.Read.All`, etc.)
 
@@ -34,6 +34,20 @@ Ce guide explique comment utiliser **MSAL (Microsoft Authentication Library)** a
 ---
 
 ## 🧰 Utiliser le script Python `token_device.py`
+
+il sera nécessaire d'installer Pyhton3
+Attention sur DietPi, étant une VM trés légère les outils ne sont pas installés. 
+
+Il faut rendre executable le script 
+```
+chmod +x token_device.py
+
+
+sudo apt install python3-pip -y
+pip3 install msal --break-system-packages
+```
+
+
 
 ### 1. Installer les dépendances :
 ```bash
