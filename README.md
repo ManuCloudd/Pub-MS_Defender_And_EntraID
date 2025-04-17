@@ -27,3 +27,4 @@ Chaque sous-dossier inclut un **README** avec :
 
 - (normalement...)  ^^
 
+## L'IA est responsable de la génération des fichiers readme.md en se basant sur l'interprétation des scripts. C'est long sinon... 
