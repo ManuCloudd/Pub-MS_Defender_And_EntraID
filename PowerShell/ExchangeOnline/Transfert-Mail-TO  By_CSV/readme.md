@@ -10,9 +10,3 @@ Transférer la réception des boîtes aux lettres selon un CSV, puis exporter un
 - Journalise chaque action et gère les erreurs.  
 - Exporte un rapport des boîtes ayant le forwarding activé.
 
-**Usage**  
-```powershell
-.\Import-Forwarding-V2.ps1 `
-  -CsvInput ".\Import-CSV-TransfertTO.csv" `
-  -CsvOutput ".\results.csv" `
-  [-UseExchangeOnline -ExchangeAdminUPN "admin@domain.com"]
