@@ -13,7 +13,7 @@
 
 - **Description** : Ensemble des scripts récents et activement maintenus pour vos besoins d’automatisation.  
 - **Statut** : Validés pour un déploiement en production (après adaptation aux spécificités de votre infrastructure).
-- - **Attention** : **Tester impérativement en environnement de labo avant toute utilisation en production.**
+- **Attention** : **Tester impérativement en environnement de labo avant toute utilisation en production.**
 
 ![Rocket Icon](https://img.icons8.com/emoji/48/000000/rocket-emji.png)  
 
